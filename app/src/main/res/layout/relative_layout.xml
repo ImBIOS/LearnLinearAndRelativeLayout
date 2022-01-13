@@ -7,11 +7,12 @@
         android:id="@+id/lblComments"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Komentar"
+        android:text="Catatan"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:textSize="20dp"
         android:padding="10dp"/>
+
     <EditText
         android:id="@+id/txtComments"
         android:layout_width="match_parent"
@@ -22,6 +23,7 @@
         android:layout_centerHorizontal="true"
         android:background="#3222"
         android:layout_margin="3dp"/>
+
     <Button
         android:id="@+id/btnSave"
         android:layout_width="125dp"
